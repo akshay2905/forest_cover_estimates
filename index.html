@@ -197,7 +197,7 @@ info.onAdd = function (map) {
 
 info.update = function (props) {
     this._div.innerHTML = '<h4>Forest Cover Estimates</h4>' +  (props ?
-        '<b style="font-size:19px;">' + props.NAME_1 + '</b><br/><br>Geographical Area - <b>' + props.ga + " km<sup>2</sup></b><br> Tree Cover Area - <b>" + props.ta+ " km<sup>2</sup></b><br>"+ " Very Dense Forest Cover Area - <b>" +props.vdf+ " km<sup>2</sup></b><br>" +" Moderately Dense Forest Cover Area - <b>" +props.mdf+ " km<sup>2</sup></b><br>"+" Open Forest Cover Area - <b>" +props.odf+ " km<sup>2</sup></b><br>"+ "<b> Percentage Cover - " +props.percent+"%</b><br> "
+        '<b style="font-size:19px;">' + props.NAME_1 + '</b><br/><br>Geographical Area - <b>' + props.ga + " km<sup>2</sup></b><br> Forest Cover Area - <b>" + props.ta+ " km<sup>2</sup></b><br>"+ " Very Dense Forest Cover Area - <b>" +props.vdf+ " km<sup>2</sup></b><br>" +" Moderately Dense Forest Cover Area - <b>" +props.mdf+ " km<sup>2</sup></b><br>"+" Open Forest Cover Area - <b>" +props.odf+ " km<sup>2</sup></b><br>"+ "<b> Percentage Cover - " +props.percent+"%</b><br> "
         : 'Hover over a state');
 };
 
